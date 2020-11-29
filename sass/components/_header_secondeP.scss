@@ -1,0 +1,31 @@
+.secondP {
+    display: flex;
+    justify-content: space-around;
+
+    .we_are {
+        margin-top: 600px;
+        margin-left: 50px;
+    }
+
+    .reseau {
+        background-image: $bgsecondP;
+        width: 869px;
+        height: 630px;
+        margin-top: 620px;
+        margin-left: 270px;
+    }
+
+    a {
+        color: $purple;
+    }
+
+    button {
+        width: 162.2px;
+        height: 48.4px;
+        margin: 30.7px 6.4px 5.2px 0.1px;
+        border-radius: 25px;
+        background-image: $bg;
+        color: $white;
+    }
+
+}

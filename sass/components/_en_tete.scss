@@ -1,0 +1,49 @@
+// Header en tete 
+.market {
+    margin-left: 170px;
+    margin-top: 20px;
+}
+
+.vague {
+    margin-left: 285px;
+    bottom: 230px;
+    position: $position;
+
+    .logo {
+        background-image: url('../../assets/img/Bg Shape.png');
+        width: 877px;
+        height: 700px;
+        margin-left: 760px;
+    
+    }
+
+    .menu {
+        position: $position;
+        margin-left: 250px;
+        margin-top: 100px;
+        width: 500px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+
+
+}
+
+
+.titre {
+    display: flex;
+
+    h1 {
+        margin-top: 70px;
+        margin-left: 40px;
+    }
+}
+
+
+// image phone.png
+.image {
+    margin-top: 200px;
+    margin-left: 90px;
+}

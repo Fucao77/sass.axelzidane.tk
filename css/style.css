@@ -1,0 +1,444 @@
+header {
+  display: flex;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.vague {
+  font-size: 40px;
+  color: #484848;
+}
+.vague .menu a {
+  font-size: 16px;
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+h1 {
+  color: #484848;
+  font-size: 40px;
+}
+
+.social {
+  color: #484848;
+  font-size: 50px;
+  font-family: Poppins;
+}
+.social h2 {
+  font-size: 74px;
+  font-weight: bold;
+}
+.social p {
+  font-size: 20px;
+  color: #7a839e;
+  font-family: Poppins;
+}
+.social button {
+  font-family: Poppins;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.secondP a {
+  font-size: 20px;
+  color: #7e76f9;
+  text-decoration: none;
+}
+.secondP h3 {
+  font-family: Poppins;
+  font-size: 50px;
+  font-weight: 600;
+  color: #42495b;
+}
+.secondP p {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 300;
+  color: #7a839e;
+}
+
+#service .what_we_offer a {
+  font-family: Lato;
+  font-size: 25px;
+  color: #7e76f9;
+}
+#service .what_we_offer h4 {
+  font-family: Poppins;
+  font-size: 50px;
+  font-weight: 600;
+  color: #42495b;
+}
+
+.container .social_media {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  color: #42495b;
+}
+.container .texte1 {
+  font-family: Lato;
+  font-size: 15px;
+  line-height: 1.47;
+  color: #42495b;
+}
+.container button {
+  background-image: linear-gradient(to left, #6156f9 112%, #1a129f 50%);
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+#Pricing a {
+  font-family: Lobster;
+  font-size: 20px;
+  line-height: 1.35;
+  text-align: center;
+  color: linear-gradient(to left, #6156f9 112%, #1a129f 50%);
+}
+#Pricing h5 {
+  font-family: Poppins;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1.52;
+  text-align: center;
+  color: #42495b;
+}
+#Pricing .Gold {
+  font-family: Lobster;
+  font-size: 28px;
+  line-height: 1.32;
+  text-align: center;
+  color: #42495b;
+}
+#Pricing .texte2 {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  color: #7a839e;
+}
+#Pricing .price {
+  margin-top: 50px;
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  color: #1000ff;
+}
+#Pricing button {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: #42495b;
+}
+#Pricing .detail {
+  background-image: linear-gradient(to left, #6156f9 112%, #1a129f 50%);
+  color: #ffffff;
+}
+
+#newsletter .news a {
+  font-family: Lobster;
+  font-size: 20px;
+  color: linear-gradient(to left, #6156f9 112%, #1a129f 50%);
+}
+#newsletter .news p {
+  font-family: Poppins;
+  font-size: 32px;
+  color: #42495b;
+}
+#newsletter .news form input {
+  background-color: #f6f7fb;
+  opacity: 0.6;
+  font-family: Poppins;
+  font-size: 12px;
+  color: #999999;
+}
+#newsletter .news form button {
+  background-image: linear-gradient(to left, #6156f9 112%, #1a129f 50%);
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+footer .section1 a {
+  font-family: Dosis;
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 0.51;
+  color: #ffffff;
+}
+footer .section1 p {
+  font-family: Poppins;
+  font-size: 31px;
+  font-weight: 500;
+  line-height: 1.81;
+  color: #ffffff;
+}
+footer .section2 a {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #ffffff;
+}
+footer .section2 p {
+  margin-top: 5px;
+  font-family: Poppins;
+  font-size: 16px;
+  line-height: 2.25;
+  color: #ffffff;
+}
+
+.social {
+  width: 547px;
+  height: 159px;
+  margin-left: 165px;
+  padding-top: 190px;
+  bottom: 50px;
+}
+.social p {
+  width: 341px;
+  height: 48px;
+}
+.social button {
+  width: 216px;
+  height: 49px;
+  border-radius: 25px;
+  background-image: linear-gradient(to left, #6156f9 112%, #1a129f 50%);
+}
+
+.market {
+  margin-left: 170px;
+  margin-top: 20px;
+}
+
+.vague {
+  margin-left: 285px;
+  bottom: 230px;
+  position: absolute;
+}
+.vague .logo {
+  background-image: url("../../assets/img/Bg Shape.png");
+  width: 877px;
+  height: 700px;
+  margin-left: 760px;
+}
+.vague .menu {
+  position: absolute;
+  margin-left: 250px;
+  margin-top: 100px;
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.titre {
+  display: flex;
+}
+.titre h1 {
+  margin-top: 70px;
+  margin-left: 40px;
+}
+
+.image {
+  margin-top: 200px;
+  margin-left: 90px;
+}
+
+.secondP {
+  display: flex;
+  justify-content: space-around;
+}
+.secondP .we_are {
+  margin-top: 600px;
+  margin-left: 50px;
+}
+.secondP .reseau {
+  background-image: url("../../assets/img/background-we-are.png");
+  width: 869px;
+  height: 630px;
+  margin-top: 620px;
+  margin-left: 270px;
+}
+.secondP a {
+  color: #7e76f9;
+}
+.secondP button {
+  width: 162.2px;
+  height: 48.4px;
+  margin: 30.7px 6.4px 5.2px 0.1px;
+  border-radius: 25px;
+  background-image: linear-gradient(to left, #6156f9 112%, #1a129f 50%);
+  color: #ffffff;
+}
+
+#service {
+  height: 1100px;
+}
+#service .what_we_offer {
+  margin-top: 45px;
+  margin-left: 170px;
+}
+
+.container {
+  background-image: url("../../assets/img/service.png");
+  width: 100%;
+  height: 1005px;
+  background-size: cover;
+  margin-top: 150px;
+}
+.container .block1 {
+  display: flex;
+  justify-content: space-around;
+}
+.container .media_management {
+  width: 366.8px;
+  height: 410.2px;
+  border-radius: 36px;
+  box-shadow: 0 10px 20px 0 rgba(126, 118, 249, 0.1);
+  background-color: #ffffff;
+}
+.container .-process {
+  margin-top: 40px;
+  margin-left: 140px;
+}
+.container .social_media {
+  margin-top: 40px;
+  margin-left: 55px;
+}
+.container .texte1 {
+  width: 316px;
+  height: 90px;
+  margin-left: 45px;
+  padding: 38.7px 12.7px;
+}
+.container button {
+  width: 93.5px;
+  height: 29.7px;
+  margin-top: 70px;
+  margin-left: 230px;
+  border-radius: 25px;
+}
+.container .block2 {
+  display: flex;
+  justify-content: space-around;
+}
+.container .influencer_market {
+  margin-top: 90px;
+  width: 366.8px;
+  height: 410.2px;
+  border-radius: 36px;
+  box-shadow: 0 10px 20px 0 rgba(126, 118, 249, 0.1);
+  background-color: #ffffff;
+}
+
+#Pricing {
+  width: 100%;
+  height: 818px;
+  padding: 90px 169.6px 97px 170.4px;
+  background-color: #7f76f948;
+  margin-top: 350px;
+}
+#Pricing a {
+  margin-left: 755px;
+}
+#Pricing .block3 {
+  display: flex;
+  justify-content: space-around;
+}
+#Pricing .package {
+  width: 370px;
+  height: 463px;
+  margin: 60px 75px 0 0;
+  padding: 57px 39.4px 53px 40.1px;
+  border-radius: 26px;
+  background-color: #ffffff;
+}
+#Pricing .texte2 {
+  margin-top: 50px;
+}
+#Pricing button {
+  width: 170px;
+  height: 52px;
+  margin: 40px 59.9px 0 60.6px;
+  border: solid 1px #1000ff;
+  border-radius: 25px;
+}
+#Pricing .detail {
+  width: 170px;
+  height: 52px;
+  margin: 40px 60.9px 0 59.6px;
+  border-radius: 25px;
+}
+
+#newsletter {
+  width: 100%;
+  height: 500px;
+}
+#newsletter .news {
+  margin-left: 600px;
+  margin-top: 250px;
+}
+#newsletter .news a {
+  margin-left: 250px;
+  width: 94px;
+  height: 27px;
+}
+#newsletter .news form input {
+  width: 430px;
+  height: 52px;
+  margin: 44px 156px 0 0;
+  padding: 18px 305px 17px 30px;
+  border: none;
+}
+#newsletter .news form button {
+  width: 170px;
+  height: 52px;
+  padding: 15px 45px 14px;
+  border-radius: 25px;
+}
+
+footer {
+  width: 100%;
+  height: 567px;
+  background-image: url("../../assets/img/footer.png");
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+}
+footer .section1 {
+  margin-top: 250px;
+}
+footer .section1 a {
+  margin-left: 50px;
+}
+footer .section1 .logo_reseau {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+footer .section2 {
+  margin-top: 250px;
+}
+footer .contact {
+  display: flex;
+}
+footer .contact .phone {
+  margin-top: 15px;
+  margin-right: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */

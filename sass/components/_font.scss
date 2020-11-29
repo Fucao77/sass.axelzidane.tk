@@ -1,0 +1,288 @@
+//S'applique à l'ensemble des <a>
+a {
+    text-decoration: $soulignement;
+}
+
+//Header
+
+
+.vague {
+    font-size: $titre;
+    color: $grey;
+
+    .menu {
+        a {
+            font-size: $sous-titre;
+            color: $white;
+            font-family: $font;
+            font-size: $size;
+            font-weight: $weight;
+        }
+    }
+
+}
+
+h1 {
+    color: $grey;
+    font-size: 40px;
+}
+
+
+
+.social {
+    color: $grey;
+    font-size: 50px;
+    font-family: $font;
+
+    h2 {
+        font-size: 74px;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: $size;
+        color: $greyv2;
+        font-family: $font;
+    }
+
+    button {
+        font-family: $font;
+        font-size: $size;
+        color: $white;
+    }
+}
+
+//SecondePartie 
+
+.secondP {
+
+    a {
+        font-size: $size;
+        color: $purple;
+        text-decoration: $soulignement;
+    }
+
+    h3 {
+
+        font-family: $font;
+        font-size: 50px;
+        font-weight: $weight600;
+        color: $greyv3;
+    }
+
+
+
+    p {
+        font-family: $font;
+        font-size: $size;
+        font-weight: 300;
+        color: $greyv2;
+    }
+
+}
+
+//Header 
+
+//Service 
+#service {
+    .what_we_offer {
+
+        a {
+            font-family: $lato;
+            font-size: 25px;
+            color: $purple;
+        }
+
+        h4 {
+            font-family: $font;
+            font-size: 50px;
+            font-weight: $weight600;
+            color: $greyv3;
+        }
+
+    }
+}
+
+.container {
+
+    .social_media {
+        font-family: $font;
+        font-size: $size;
+        font-weight: $weight600;
+        color: $greyv3;
+    }
+
+    .texte1 {
+        font-family: $lato;
+        font-size: 15px;
+        line-height: 1.47;
+        color: $greyv3;
+    }
+
+    button {
+        background-image: $bg;
+        font-family: $font;
+        font-size: 12px;
+        font-weight: $weight;
+        color: $white;
+    }
+
+
+}
+
+//Service 
+
+//Pricing 
+#Pricing {
+
+    a {
+        font-family: $lobster;
+        font-size: $size;
+        line-height: 1.35;
+        text-align: $align;
+        color: $bg;
+    }
+
+    h5 {
+
+        font-family: $font;
+        font-size: 50px;
+        font-weight: $weight600;
+        line-height: 1.52;
+        text-align: $align;
+        color: $greyv3;
+    }
+
+    .Gold {
+        font-family: $lobster;
+        font-size: 28px;
+        line-height: 1.32;
+        text-align: $align;
+        color: $greyv3;
+    }
+
+    .texte2 {
+        font-family: $font;
+        font-size: 16px;
+        font-weight: 300;
+        text-align: $align;
+        color: #7a839e;
+    }
+
+    .price {
+        margin-top: 50px;
+        font-family: $font;
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+        color: #1000ff;
+    }
+
+    button {
+        font-family: $font;
+        font-size: 16px;
+        font-weight: $weight;
+        text-align: center;
+        color: $greyv3;
+    }
+
+    .detail {
+        background-image: $bg;
+        color: $white;
+    }
+
+
+}
+
+//Pricing
+
+
+
+//Newsletter 
+#newsletter {
+    .news {
+
+        a {
+            font-family: $lobster;
+            font-size: $size;
+            color: $bg;
+        }
+
+        p {
+            font-family: $font;
+            font-size: 32px;
+            color: $greyv3;
+        }
+
+        form {
+
+            input {
+                background-color: #f6f7fb;
+                opacity: 0.6;
+                font-family: $font;
+                font-size: 12px;
+                color: #999999;
+
+            }
+
+            button {
+                background-image: $bg;
+                color: $white;
+                font-family: $font;
+                font-size: 16px;
+                font-weight: $weight;
+            }
+        }
+
+
+    }
+}
+
+//Newsletter
+
+//Footer 
+footer {
+    .section1 {
+
+        a {
+
+            font-family: Dosis;
+            font-size: 50px;
+            font-weight: 800;
+            line-height: 0.51;
+            color: $white;
+
+        }
+
+        p {
+
+            font-family: $font;
+            font-size: 31px;
+            font-weight: $weight;
+            line-height: 1.81;
+            color: $white;
+
+        }
+
+    }
+
+    .section2 {
+        a {
+            font-family: $font;
+            font-size: 20px;
+            font-weight: $weight;
+            line-height: 1.5;
+            color: $white;
+        }
+
+        p {
+            margin-top: 5px;
+            font-family: $font;
+            font-size: 16px;
+            line-height: 2.25;
+            color: $white;
+        }
+    }
+}
+
+//Footer

@@ -1,0 +1,39 @@
+footer {
+    width: 100%;
+    height: 567px;
+    background-image: url('../../assets/img/footer.png');
+    background-size: cover;
+    display: flex;
+    justify-content: $space;
+
+    .section1 {
+
+        margin-top: 250px;
+
+        a {
+            margin-left: 50px;
+        }
+
+        
+        .logo_reseau {
+            width: 200px;
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+
+
+    .section2 {
+        margin-top: 250px;
+    }
+
+    .contact {
+        display: flex;
+
+        .phone {
+            margin-top: 15px;
+            margin-right: 15px;
+        }
+      
+    }
+}
